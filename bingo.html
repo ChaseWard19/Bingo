@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head id="head">
+        <meta charset="UTF-8">
+        <title>Bingo</title>
+        <meta http-equiv='cache-control' content='no-cache'> 
+        <meta http-equiv='expires' content='0'> 
+        <meta http-equiv='pragma' content='no-cache'>
+        <link rel="stylesheet" href="bingo.css">
+        <div id="number">
+            <h2>Bingo! Press 'New Number' to start</h2>
+        </div>
+    </head>
+    <body id="body">
+        <div id="backgroundColor">
+            <div id='controlButtons' style="display: flex; flex-wrap: wrap; width: 500px; margin: auto;">
+                <button class="colorChangeButtons" id="new" onclick="draw()">New Number</button>
+                <button class="colorChangeButtons" id="timer" onclick="timerStart()">Timer</button>
+            </div>
+            <div id="board">
+                <button class='letters' id="B0" style="border-top-left-radius: 13px;">B</button>
+                <button class='letters' id="I0">I</button>
+                <button class='letters' id="N0">N</button>
+                <button class='letters' id="G0">G</button>
+                <button class='letters' id="O0" style="border-top-right-radius: 13px;">O</button>
+                <button class='numbers' id="B1" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="I1" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="N1" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="G1" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="O1" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="B2" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="I2" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="N2" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="G2" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="O2" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="B3" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="I3" onclick="placeCircle(this.id)"></button>
+                <button class='freeSpace' id="N3" onclick="placeCircle(this.id)">Free<br>Space</button>
+                <button class='numbers' id="G3" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="O3" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="B4" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="I4" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="N4" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="G4" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="O4" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="B5" onclick="placeCircle(this.id)" style="border-bottom-left-radius: 13px;"></button>
+                <button class='numbers' id="I5" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="N5" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="G5" onclick="placeCircle(this.id)"></button>
+                <button class='numbers' id="O5" onclick="placeCircle(this.id)" style="border-bottom-right-radius: 13px;"></button>
+            </div>
+        </div>
+        <br>
+        <div id="colors" style="width: 689px;margin: auto;">
+            <button class='colors' id="red" onclick="color('red')" style="background-color: #FF6663;">Red</button>
+            <button class='colors' id="orange" onclick="color('orange')" style="background-color: #FEB144;">Orange</button>
+            <button class='colors' id="yellow" onclick="color('yellow')" style="background-color: #FDFD97;">Yellow</button>
+            <button class='colors' id="green" onclick="color('green')" style="background-color: #9EE09E;">Green</button>
+            <button class='colors' id="blue" onclick="color('blue')" style="background-color: #9EC1CF;">Blue</button>
+            <button class='colors' id="purple" onclick="color('purple')" style="background-color: #C0C2E2;">Purple</button>
+            <button class='colors' id="customColor" onclick="color('customColor')" style="background-color: #ffffff;">Custom..</button>
+        </div>
+
+        
+
+
+        <script src="bingo.js"></script>
+    </body>
+</html>
