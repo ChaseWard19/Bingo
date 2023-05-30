@@ -83,7 +83,6 @@
 .letters {
     width: 100px;
     height: 100px;
-    margin: auto;
     border: 1px solid black;
     text-align: center;
     font-size: 75px;
@@ -92,7 +91,6 @@
 .numbers {
     width: 100px;
     height: 100px;
-    margin: auto;
     border: 1px solid black;
     text-align: center;
     font-size: 55px;
@@ -101,7 +99,6 @@
 .freeSpace {
     width: 100px;
     height: 100px;
-    margin: auto;
     border: 1px solid black;
     text-align: center;
     font-size: 24px;
@@ -118,4 +115,24 @@
 #colorInput {
     font-family: 'Times New Roman';
     font-size: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+    .freeSpace {
+        width: 80px;
+        height: 80px;
+        font-size: 24px;
+    }
+    
+    .freeSpace {
+        width: 80px;
+        height: 80px;
+        font-size: 24px;
+    }
+    
+    .freeSpace {
+        width: 80px;
+        height: 80px;
+        font-size: 24px;
+    }
 }
