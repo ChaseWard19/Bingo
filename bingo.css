@@ -83,6 +83,7 @@
 .letters {
     width: 100px;
     height: 100px;
+    margin: auto;
     border: 1px solid black;
     text-align: center;
     font-size: 75px;
@@ -91,6 +92,7 @@
 .numbers {
     width: 100px;
     height: 100px;
+    margin: auto;
     border: 1px solid black;
     text-align: center;
     font-size: 55px;
@@ -99,6 +101,7 @@
 .freeSpace {
     width: 100px;
     height: 100px;
+    margin: auto;
     border: 1px solid black;
     text-align: center;
     font-size: 24px;
