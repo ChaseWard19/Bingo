@@ -119,13 +119,16 @@
 
 /* mobile viewing */
 @media screen and (max-width: 767px) {
-    .letters{
+    .letters {
         height: 50px;
+        width: 50px;
     }
     .numbers {
         height: 50px;
+        width: 50px;
     }
     .freeSpace {
         height: 50px;
+        width: 50px;
     }
 }
