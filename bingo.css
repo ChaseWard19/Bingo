@@ -116,19 +116,3 @@
     font-family: 'Times New Roman';
     font-size: 80%;
 }
-
-/* mobile viewing */
-@media screen and (max-width: 767px) {
-    .letters {
-        height: 150px;
-        width: 150px;
-    }
-    .numbers {
-        height: 150px;
-        width: 150px;
-    }
-    .freeSpace {
-        height: 150px;
-        width: 150px;
-    }
-}
