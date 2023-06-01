@@ -120,15 +120,15 @@
 /* mobile viewing */
 @media screen and (max-width: 767px) {
     .letters {
-        height: 50px;
-        width: 50px;
+        height: 150px;
+        width: 150px;
     }
     .numbers {
-        height: 50px;
-        width: 50px;
+        height: 150px;
+        width: 150px;
     }
     .freeSpace {
-        height: 50px;
-        width: 50px;
+        height: 150px;
+        width: 150px;
     }
 }
