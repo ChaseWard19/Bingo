@@ -123,11 +123,11 @@ function color(color) {
             document.getElementById('backgroundColor').style.backgroundColor = '#FDFD97'
             document.querySelectorAll('.colorChangeButtons').forEach(button => document.getElementById(button.id).style.backgroundColor = boardColor)
             for (i=0; i<6; i++) {
-                document.getElementById('B'+i).style.backgroundColor = b
-                document.getElementById('I'+i).style.backgroundColor = b
-                document.getElementById('N'+i).style.backgroundColor = b
-                document.getElementById('G'+i).style.backgroundColor = b
-                document.getElementById('O'+i).style.backgroundColor = b
+                document.getElementById('B'+i).style.backgroundColor = boardColor
+                document.getElementById('I'+i).style.backgroundColor = boardColor
+                document.getElementById('N'+i).style.backgroundColor = boardColor
+                document.getElementById('G'+i).style.backgroundColor = boardColor
+                document.getElementById('O'+i).style.backgroundColor = boardColor
             }
             break
         // green
